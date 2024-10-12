@@ -24,7 +24,7 @@ def calculate_dose():
         
         # Determine CYP2C9 metabolizer phenotype based on activity score
         if activity_score == 2.0:
-            phenotype_cyp2c9 = "Normal Metabolizer"
+            phenotype_cyp2c9 = "Normal/Extensive Metabolizer"
             dose_adjustment_cyp2c9 = 1.0  # No adjustment
         elif 1.0 <= activity_score < 2.0:
             phenotype_cyp2c9 = "Intermediate Metabolizer"
